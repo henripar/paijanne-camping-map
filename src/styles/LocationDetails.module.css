@@ -118,6 +118,19 @@
   background: #e58989;
 }
 
+.coordinates {
+  color: rgba(0, 0, 0, 0.593);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coordinates img {
+  stroke: #e58989;
+  color: #e58989;
+  fill: #e58989;
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     width: 90%;

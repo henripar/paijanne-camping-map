@@ -173,5 +173,73 @@
         "path": "kelvenne_lietsaari_4.jpeg"
       }
     ]
+  },
+  {
+    "name": "Laivaranta Padasjoki",
+    "latlong": [61.362377, 25.296055],
+    "description": "Padasjoen laivarannassa on kesäisin monipuoliset mahdollisuudet tutustua Päijänteeseen. Satamassa sijaitsee kunnan matkailuinfo, joka palvelee asiakkaita koululaisten kesäloman ajan juhannuksesta elokuun puoleen väliin. Satamassa on myös kesäravintola, kausi- ja vierasvenepaikkoja sekä erilaisia tapahtumia.",
+    "services": ["Opastus", "Uimaranta", "Wc", "Ravintola"],
+    "markdown": "laivaranta-padasjoki.md",
+    "images": [
+      {
+        "name": "Padasjoen laivaranta ilmasta",
+        "path": "padasjoki-laivaranta.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Kalasaari",
+    "latlong": [62.214201, 25.822585],
+    "description": "Kalasaari sijaitsee Päijänteen pohjoispäässä, Jyväskylän kaupungin tuntumassa. Alueella on laituri kiinnityspoijuineen, sauna uimalaitureineen, grillikatos, jätepiste ja kompostori-käymälä.",
+    "services": ["Ulkokäymälä", "Uimalaituri", "Sauna", "Grillikatos"],
+    "markdown": "kalasaari.md",
+    "images": [
+      {
+        "name": "Kalasaaren sauna",
+        "path": "kalasaari_sauna.png"
+      },
+      {
+        "name": "Grillikatos",
+        "path": "kalasaari_grillikatos_2.jpeg"
+      },
+      {
+        "name": "Grillikatos 2",
+        "path": "kalasaari_grillikatos.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Peini ketvensaari",
+    "latlong": [62.250265, 25.954461],
+    "description": "Pieni Ketvenensaari Leppävedellä on Metsähallituksen omistama ja Vaajakosken Veneilijät ry:n ylläpitämä retkisatama.",
+    "services": ["Ulkokäymälä", "Grillikatos"],
+    "markdown": "pieni-ketvensaari.md",
+    "images": [
+      {
+        "name": "Pieni Ketvensaari",
+        "path": "pieni-ketvensaari.jpeg"
+      },
+      {
+        "name": "Grillikatos",
+        "path": "pieni-ketvensaari-grillikatos.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Korpilahden satama",
+    "latlong": [62.013558, 25.55818],
+    "description": "Pieni Ketvenensaari Leppävedellä on Metsähallituksen omistama ja Vaajakosken Veneilijät ry:n ylläpitämä retkisatama.",
+    "services": ["Ulkokäymälä", "Grillikatos"],
+    "markdown": "korpilahti-satama.md",
+    "images": [
+      {
+        "name": "Korpilahden satama",
+        "path": "korpilahti_satama.jpeg"
+      },
+      {
+        "name": "Korpilahden satama alue",
+        "path": "korpilahti_satama_2.jpeg"
+      }
+    ]
   }
 ]
