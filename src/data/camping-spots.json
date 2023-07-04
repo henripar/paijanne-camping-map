@@ -241,5 +241,43 @@
         "path": "korpilahti_satama_2.jpeg"
       }
     ]
+  },
+  {
+    "name": "Koukunlahti",
+    "latlong": [61.372508, 25.45265],
+    "description": "Suojainen ja syvä retkisatama Kelventeen saaren itäpuolella Päijänteen kansallispuistossa.",
+    "services": ["Nuotiopaikka", "Ulkokäymälä"],
+    "markdown": "koukunlahti.md",
+    "images": [
+      {
+        "name": "Korpilahden satama",
+        "path": "koukunlahti.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Pyydysniemi",
+    "latlong": [61.483144, 25.561452],
+    "description": "Pyydysniemen taukopaikalla on Päijätsalon infotaulu, tulentekopaikka retkeilijöille ja laituri veneilijöille.",
+    "services": ["Nuotiopaikka", "Ulkokäymälä", "Näkötorni", "Luontopolku"],
+    "markdown": "pyydysniemi.md",
+    "images": [
+      {
+        "name": "Pyydysniemen nuotiopaikka",
+        "path": "pyydysniemi_nuotiopaikka.jpeg"
+      },
+      {
+        "name": "Pyydysniemen nuotiopaikka 2",
+        "path": "pyydysniemi_2.jpeg"
+      },
+      {
+        "name": "Päijätsalon näköala torni",
+        "path": "pyydysniemi_paijatsalo_naktorni.jpeg"
+      },
+      {
+        "name": "Maisemia Päijätsalon näköala tornista",
+        "path": "pyydysniemi_paijatsalo_nakotorni_2.jpeg"
+      }
+    ]
   }
 ]
