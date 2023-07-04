@@ -20,7 +20,7 @@ export default function Map() {
     <div onClick={() => console.log('click')}>
       <MapContainer
         center={[61.367400001, 25.454300001]}
-        zoom={13}
+        zoom={12}
         markerZoomAnimation={true}
         scrollWheelZoom={true}
         style={{ height: '100vh', width: '100vw' }}

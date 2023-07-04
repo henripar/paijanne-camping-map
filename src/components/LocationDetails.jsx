@@ -27,7 +27,7 @@ export const LocationDetails = ({ location, closeHandler }) => {
   };
 
   useEffect(() => {
-    readTextFile(`../public/${location.markdown}`);
+    readTextFile(`./${location.markdown}`);
     let clean = DOMPurify.sanitize(
       marked.parse(markup.replace(/&#13;/g, '<br>'))
     );
@@ -62,10 +62,9 @@ export const LocationDetails = ({ location, closeHandler }) => {
           <div key={index}>
             <span className={styles.imageTitle}>{image.name}</span>
             <img
-              src={'../public/images/' + image.path}
+              src={'./images/' + image.path}
               className={styles.detailsImg}
               alt={image.name}
-              style={{ width: '80%' }}
             />
           </div>
         ))}

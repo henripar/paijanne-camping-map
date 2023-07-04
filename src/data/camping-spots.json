@@ -123,5 +123,55 @@
         "path": "kelvenne_isohieta_3.png"
       }
     ]
+  },
+  {
+    "name": "Likolahti",
+    "latlong": [61.395, 25.446667],
+    "description": "Likolahden pitkähkö hiekkaranta, tulentekopaikka ja telttailualue sijaitsevat Kelventeen pohjoiskärjen itäpuolella. Telttailualueella on nuotiokehä, kirves, saha, puuvaja ja kuivakäymälä.",
+    "services": [
+      "Opastus",
+      "Uimaranta",
+      "Kuivakäymälä",
+      "Teilttilupaikka",
+      "Nuotiopaikka"
+    ],
+    "markdown": "likolahti.md",
+    "images": [
+      {
+        "name": "Likolahti ilmasta",
+        "path": "kelvenne_likolahti_ilma.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Lietsaari",
+    "latlong": [61.36914005089441, 25.41337634225643],
+    "description": "Lietsaari on Kelventeen saaren eteläpäässä sijaitseva pieni saari, jossa on hieno hiekkaranta. Saaren länsipuolella on myös pieni laavu.",
+    "services": [
+      "Opastus",
+      "Uimaranta",
+      "Kuivakäymälä",
+      "Teilttilupaikka",
+      "Nuotiopaikka"
+    ],
+    "markdown": "lietsaari.md",
+    "images": [
+      {
+        "name": "Lietsaari ilmasta",
+        "path": "kelvenne_lietsaari_1.jpeg"
+      },
+      {
+        "name": "Lietsaaren rantaa",
+        "path": "kelvenne_lietsaari_2.jpeg"
+      },
+      {
+        "name": "Lietsaaren rantaa 2",
+        "path": "kelvenne_lietsaari_3.jpeg"
+      },
+      {
+        "name": "Lietsaaren rantaa 3",
+        "path": "kelvenne_lietsaari_4.jpeg"
+      }
+    ]
   }
 ]

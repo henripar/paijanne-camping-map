@@ -52,6 +52,7 @@
 }
 
 .wrapper::-webkit-scrollbar {
+  -webkit-appearance: none;
   width: var(--sb-size);
 }
 
@@ -68,7 +69,22 @@
 .detailsImg {
   margin-top: 1rem;
   display: block;
-  max-width: 100;
+  animation-name: imageFadeIn;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  max-width: 100%;
+}
+
+@keyframes imageFadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .imageTitle {
@@ -94,9 +110,16 @@
   position: sticky;
   width: fit-content;
   float: right;
+  z-index: 1100;
 }
 
 .close:hover {
   color: #fff;
   background: #e58989;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
 }
