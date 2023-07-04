@@ -1,4 +1,4 @@
-# Likohati
+# Likolahti
 
 **Likolahti on Kelventeen harjupolun aloituspaikka saaren pohjoisimmassa kärjessä.**
 
