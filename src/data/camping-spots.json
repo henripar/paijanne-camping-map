@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Haapasaari",
+    "latlong": [61.319882, 25.498244],
+    "description": "Haapasaari sijaitsee eteläisellä Päijänteellä, Päijänteen kansallispuistossa (P:61.32,0 I:25.49,9′), Kelventeen kaakkoispuolella. Saaressa sijaitsee viimeinen Etelä-Päijänteellä säilynyt kalastajatila. Lahden venekerho on vuokrannut pihapiirin pitkäaikaisella sopimuksella Metsähallitukselta.",
+    "services": [
+      "Sauna",
+      "Wc",
+      "Grillikatos",
+      "Nuotiopaikka",
+      "Kalan perkauspöytä",
+      "Lampaita",
+      "Luontopolku",
+      "Frisbeegolf",
+      "Uimaranta"
+    ],
+    "markdown": "haapasaari.md",
+    "images": [
+      { "name": "Haapasaari Opas-kartta", "path": "haapasaari_opaskartta.png" },
+      {
+        "name": "Haapasaari Poijukiinnitys",
+        "path": "haapasaari_poijupainokartta.png"
+      },
+      {
+        "name": "Haapasaari Ilmasta",
+        "path": "haapasaari_ilma.jpeg"
+      },
+      {
+        "name": "Haapasaari Sauna",
+        "path": "haapasaari_sauna.png"
+      },
+      {
+        "name": "Haapasaari Sauna 2",
+        "path": "haapasaari_sauna_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Hinttolanhiekka (Kelvenne)",
+    "latlong": [61.34005, 25.472291],
+    "description": "Hieno hiekkaranta Kelventeen saaren eteläpäässä.",
+    "services": [
+      "Sauna",
+      "Wc",
+      "Grillikatos",
+      "Nuotiopaikka",
+      "Kalan perkauspöytä",
+      "Lampaita",
+      "Luontopolku",
+      "Frisbeegolf",
+      "Uimaranta"
+    ],
+    "markdown": "hinttolanhiekka.md",
+    "images": [
+      {
+        "name": "Hinttolanhiekka Ilmasta",
+        "path": "kelvenne_hinttolanhiekka_ilma.jpeg"
+      },
+      {
+        "name": "Hinttolanhiekka telttailualue",
+        "path": "kelvenne_hinttolanhiekka_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Kirkkosalmi (Kelvenne)",
+    "latlong": [61.329087, 25.451371],
+    "description": "Hieno hiekkaranta Kelventeen saaren eteläpäässä.",
+    "services": [
+      "Sauna",
+      "Wc",
+      "Grillikatos",
+      "Nuotiopaikka",
+      "Kalan perkauspöytä",
+      "Lampaita",
+      "Luontopolku",
+      "Frisbeegolf",
+      "Uimaranta"
+    ],
+    "markdown": "kirkkosalmi.md",
+    "images": [
+      {
+        "name": "Kirkkosalmi Grillikatos",
+        "path": "kirkkosalmi_1.jpeg"
+      },
+      {
+        "name": "Kiviä rannan tuntumassa",
+        "path": "kirkkosalmi_2.png"
+      }
+    ]
+  },
+  {
+    "name": "Hietasaari",
+    "latlong": [61.410653, 25.441081],
+    "description": "Länteen ja länsilounaaseen suuntaava hyvä hiekkaranta veneväylän vieressä. Satama on suosittu veneilijoiden keskuudessa ja paikalla voi olla isojakin, lähes laivan kokoisia, veneitä.",
+    "services": ["Opastus", "Kuivakäymälä", "Teilttilupaikka", "Nuotiopaikka"],
+    "markdown": "hietasaari.md",
+    "images": []
+  },
+  {
+    "name": "Isohieta",
+    "latlong": [61.385024, 25.451453],
+    "description": "Isohieta on Kelventeen saaren pohjoispäässä oleva hieno hiekkaranta, joka houkuttelee pulahtamaan Päijänteen aaltoihin.",
+    "services": [
+      "Opastus",
+      "Uimaranta",
+      "Kuivakäymälä",
+      "Teilttilupaikka",
+      "Nuotiopaikka"
+    ],
+    "markdown": "isohieta.md",
+    "images": [
+      {
+        "name": "Isohieta Nuotiopaikka",
+        "path": "kelvenne_isohieta_1.jpeg"
+      },
+      {
+        "name": "Isohieta Ranta",
+        "path": "kelvenne_isohieta_2.jpeg"
+      },
+      {
+        "name": "Isohieta Ranta 2",
+        "path": "kelvenne_isohieta_3.png"
+      }
+    ]
+  }
+]

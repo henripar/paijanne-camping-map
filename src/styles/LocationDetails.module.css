@@ -1,0 +1,102 @@
+.wrapper {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-height: 80%;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.307);
+  overflow-y: scroll;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation-name: example;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  opacity: 1;
+}
+
+@keyframes example {
+  0% {
+    top: 150%;
+    opacity: 0;
+  }
+  25% {
+    top: 100%;
+    opacity: 0.3;
+  }
+  50% {
+    top: 80%;
+    opacity: 0.8;
+  }
+  75% {
+    top: 60%;
+    opacity: 0.9;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #d9d9d9;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+.wrapper::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
+.detailsImg {
+  margin-top: 1rem;
+  display: block;
+  max-width: 100;
+}
+
+.imageTitle {
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.close {
+  top: 0px;
+  right: 0px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+  background: #f4caca;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  position: sticky;
+  width: fit-content;
+  float: right;
+}
+
+.close:hover {
+  color: #fff;
+  background: #e58989;
+}
