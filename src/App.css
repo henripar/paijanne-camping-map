@@ -3,6 +3,7 @@ h2,
 h3,
 p {
   margin-top: 1rem;
+  color: var(--color-text);
 }
 
 ul {
@@ -11,10 +12,32 @@ ul {
 
 li {
   margin-top: 0.5rem;
+  color: var(--color-text);
+}
+
+span {
+  color: var(--color-text);
 }
 
 a {
   text-decoration: none;
   color: teal;
   font-weight: 500;
+}
+
+.menu {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  padding: 1rem;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  background: var(--color-bg);
+}
+
+.menu > .switch {
+  display: none;
 }

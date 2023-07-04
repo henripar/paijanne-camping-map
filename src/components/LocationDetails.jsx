@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../styles/LocationDetails.module.css';
 import { useEffect, useState } from 'react';
 import { marked } from 'marked';
-import locationMark from '../../public/images/location-marker-icon.png';
 import DOMPurify from 'dompurify';
 
 marked.setOptions({

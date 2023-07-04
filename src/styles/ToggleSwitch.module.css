@@ -1,0 +1,17 @@
+.switchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  padding: 1rem;
+  z-index: 1000;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  background: var(--color-bg);
+}

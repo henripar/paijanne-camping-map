@@ -10,3 +10,40 @@
 body {
   overflow: hidden;
 }
+
+:root {
+  --color-bg: #fff;
+  --color-border: #ccc;
+  --color-text: #000;
+  --color-text-secondary: rgba(0, 0, 0, 0.593);
+}
+
+.dark {
+  --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg)
+    saturate(0.6) brightness(0.7);
+  --color-bg: #202124;
+  --color-text: #fff;
+  --color-border: #cccccc5e;
+  --color-text-secondary: rgba(255, 255, 255, 0.593);
+}
+.dark .wrapper {
+  --sb-track-color: #202124 !important;
+}
+
+.leaflet-control-zoom-out {
+  background: var(--color-bg) !important;
+}
+
+.leaflet-control-zoom-in {
+  background: var(--color-bg) !important;
+}
+
+.leaflet-container {
+  background: var(--color-bg) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mapTiles {
+    filter: var(--map-tiles-filter, none);
+  }
+}
