@@ -127,7 +127,12 @@
   color: var(--color-text-secondary);
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: space-between;
+  max-width: 100%;
+}
+
+.coordinates > div:not(:first-child) {
+  margin-left: 1rem;
 }
 
 .coordinates img {

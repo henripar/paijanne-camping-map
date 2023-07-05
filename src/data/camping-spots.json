@@ -2,6 +2,7 @@
   {
     "name": "Haapasaari",
     "latlong": [61.319882, 25.498244],
+    "membersOnly": "false",
     "description": "Haapasaari sijaitsee eteläisellä Päijänteellä, Päijänteen kansallispuistossa (P:61.32,0 I:25.49,9′), Kelventeen kaakkoispuolella. Saaressa sijaitsee viimeinen Etelä-Päijänteellä säilynyt kalastajatila. Lahden venekerho on vuokrannut pihapiirin pitkäaikaisella sopimuksella Metsähallitukselta.",
     "services": [
       "Sauna",
@@ -38,6 +39,7 @@
   {
     "name": "Hinttolanhiekka (Kelvenne)",
     "latlong": [61.34005, 25.472291],
+    "membersOnly": "false",
     "description": "Hieno hiekkaranta Kelventeen saaren eteläpäässä.",
     "services": [
       "Sauna",
@@ -65,6 +67,7 @@
   {
     "name": "Kirkkosalmi (Kelvenne)",
     "latlong": [61.329087, 25.451371],
+    "membersOnly": "false",
     "description": "Hieno hiekkaranta Kelventeen saaren eteläpäässä.",
     "services": [
       "Sauna",
@@ -92,6 +95,7 @@
   {
     "name": "Hietasaari",
     "latlong": [61.410653, 25.441081],
+    "membersOnly": "false",
     "description": "Länteen ja länsilounaaseen suuntaava hyvä hiekkaranta veneväylän vieressä. Satama on suosittu veneilijoiden keskuudessa ja paikalla voi olla isojakin, lähes laivan kokoisia, veneitä.",
     "services": ["Opastus", "Kuivakäymälä", "Teilttilupaikka", "Nuotiopaikka"],
     "markdown": "hietasaari.md",
@@ -100,6 +104,7 @@
   {
     "name": "Isohieta",
     "latlong": [61.385024, 25.451453],
+    "membersOnly": "false",
     "description": "Isohieta on Kelventeen saaren pohjoispäässä oleva hieno hiekkaranta, joka houkuttelee pulahtamaan Päijänteen aaltoihin.",
     "services": [
       "Opastus",
@@ -127,6 +132,7 @@
   {
     "name": "Likolahti",
     "latlong": [61.395, 25.446667],
+    "membersOnly": "false",
     "description": "Likolahden pitkähkö hiekkaranta, tulentekopaikka ja telttailualue sijaitsevat Kelventeen pohjoiskärjen itäpuolella. Telttailualueella on nuotiokehä, kirves, saha, puuvaja ja kuivakäymälä.",
     "services": [
       "Opastus",
@@ -146,6 +152,7 @@
   {
     "name": "Lietsaari",
     "latlong": [61.36914005089441, 25.41337634225643],
+    "membersOnly": "false",
     "description": "Lietsaari on Kelventeen saaren eteläpäässä sijaitseva pieni saari, jossa on hieno hiekkaranta. Saaren länsipuolella on myös pieni laavu.",
     "services": [
       "Opastus",
@@ -177,6 +184,7 @@
   {
     "name": "Laivaranta Padasjoki",
     "latlong": [61.362377, 25.296055],
+    "membersOnly": "false",
     "description": "Padasjoen laivarannassa on kesäisin monipuoliset mahdollisuudet tutustua Päijänteeseen. Satamassa sijaitsee kunnan matkailuinfo, joka palvelee asiakkaita koululaisten kesäloman ajan juhannuksesta elokuun puoleen väliin. Satamassa on myös kesäravintola, kausi- ja vierasvenepaikkoja sekä erilaisia tapahtumia.",
     "services": ["Opastus", "Uimaranta", "Wc", "Ravintola"],
     "markdown": "laivaranta-padasjoki.md",
@@ -190,6 +198,7 @@
   {
     "name": "Kalasaari",
     "latlong": [62.214201, 25.822585],
+    "membersOnly": "false",
     "description": "Kalasaari sijaitsee Päijänteen pohjoispäässä, Jyväskylän kaupungin tuntumassa. Alueella on laituri kiinnityspoijuineen, sauna uimalaitureineen, grillikatos, jätepiste ja kompostori-käymälä.",
     "services": ["Ulkokäymälä", "Uimalaituri", "Sauna", "Grillikatos"],
     "markdown": "kalasaari.md",
@@ -211,6 +220,7 @@
   {
     "name": "Peini Ketvensaari",
     "latlong": [62.250265, 25.954461],
+    "membersOnly": "false",
     "description": "Pieni Ketvenensaari Leppävedellä on Metsähallituksen omistama ja Vaajakosken Veneilijät ry:n ylläpitämä retkisatama.",
     "services": ["Ulkokäymälä", "Grillikatos"],
     "markdown": "pieni-ketvensaari.md",
@@ -228,6 +238,7 @@
   {
     "name": "Korpilahden satama",
     "latlong": [62.013558, 25.55818],
+    "membersOnly": "false",
     "description": "Pieni Ketvenensaari Leppävedellä on Metsähallituksen omistama ja Vaajakosken Veneilijät ry:n ylläpitämä retkisatama.",
     "services": ["Ulkokäymälä", "Grillikatos"],
     "markdown": "korpilahti-satama.md",
@@ -245,6 +256,7 @@
   {
     "name": "Koukunlahti",
     "latlong": [61.372508, 25.45265],
+    "membersOnly": "false",
     "description": "Suojainen ja syvä retkisatama Kelventeen saaren itäpuolella Päijänteen kansallispuistossa.",
     "services": ["Nuotiopaikka", "Ulkokäymälä"],
     "markdown": "koukunlahti.md",
@@ -258,6 +270,7 @@
   {
     "name": "Pyydysniemi",
     "latlong": [61.483144, 25.561452],
+    "membersOnly": "false",
     "description": "Pyydysniemen taukopaikalla on Päijätsalon infotaulu, tulentekopaikka retkeilijöille ja laituri veneilijöille.",
     "services": ["Nuotiopaikka", "Ulkokäymälä", "Näkötorni", "Luontopolku"],
     "markdown": "pyydysniemi.md",
@@ -277,6 +290,388 @@
       {
         "name": "Maisemia Päijätsalon näköala tornista",
         "path": "pyydysniemi_paijatsalo_nakotorni_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Linnasaaren selkäsaaret",
+    "latlong": [61.45481, 25.430591],
+    "membersOnly": "false",
+    "description": "Linnasaaren Selkäsaaret sijaitsevat Padasjoella. Alueelle on rakennettu grillikatos, kompostori-käymälä, jätteiden kierrätyspiste ja laituri. Kalliossa on lenkkejä veneen keulan kiinnittämistä varten.",
+    "services": [
+      "Grillikatos",
+      "Ulkokäymälä",
+      "Jätteiden kierrätys",
+      "Laituri"
+    ],
+    "markdown": "linnasaaren-selkasaaret.md",
+    "images": [
+      {
+        "name": "Laituri",
+        "path": "linnasaaren_selkasaaret_1.jpeg"
+      },
+      {
+        "name": "Laituri 2",
+        "path": "linnasaaren_Selkasaaret_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Vuorissalo",
+    "latlong": [61.794018, 25.527452],
+    "membersOnly": "false",
+    "description": "Vuorissalo sijaitsee Jämsässä. Alueella on sauna, venelaituri, peräkiinnityspoijuja, grillikatos, 2 puukatosta sekä 2 kuivakäymälää.",
+    "services": [
+      "Sauna",
+      "Ulkokäymälä",
+      "Jätteiden kierrätys",
+      "Laituri",
+      "Grillikatos",
+      "Nuotiopaikka",
+      "Puukatos"
+    ],
+    "markdown": "vuorissalo.md",
+    "images": [
+      {
+        "name": "Vuorissalon virkistysalue",
+        "path": "vuorissalo_1.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "vuorissalo_2.png"
+      }
+    ]
+  },
+  {
+    "name": "Kiviönniemi",
+    "latlong": [61.97033, 25.592044],
+    "membersOnly": "false",
+    "description": "Virkistäytymiskäyttöön tarkoitettu leiripaikka, jossa tulentekopaikat ja laavu.",
+    "services": ["Nuotiopaikka", "Puukatos", "Laavu"],
+    "markdown": "kivionniemi.md",
+    "images": [
+      {
+        "name": "Kiviönniemi",
+        "path": "kivionniemi_1.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "kivionniemi_lahestymiskartta.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Keidas Sohwi",
+    "latlong": [61.994494, 25.670807],
+    "membersOnly": "false",
+    "description": "Keidas Sohwi on anniskelu- ja ruokaravintola kahvilapalveluilla höystettynä.",
+    "services": ["Ravintola", "Kahvila"],
+    "markdown": "keidas-sohwi.md",
+    "images": [
+      {
+        "name": "Keidas by Sohwi",
+        "path": "keidas_sohwi.jpeg"
+      },
+      {
+        "name": "Keitaassa on tarjolla ruokaa ja juomaa",
+        "path": "keidas_sohwi_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Pirttisaari",
+    "latlong": [61.928714, 25.638943],
+    "membersOnly": "false",
+    "description": "Pirttsaari sijaitsee Korpilahden muiden suosittujen rantautumisalueiden, kuten Kuminan, läheisyydessä. Alueella on sauna, venelaituri peräkiinnityspoijuineen, grillikatos, 2 puukatosta ja 2 kuivakäymälää.",
+    "services": [
+      "Sauna",
+      "Venelaituri",
+      "Grillikatos",
+      "2 puukatosta",
+      "Kuivakäymälä"
+    ],
+    "markdown": "pirttisaari.md",
+    "images": [
+      {
+        "name": "Sauna",
+        "path": "pirttisaari_sauna.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "pirttisaari_lahestymiskartta.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Lehtisten saaret",
+    "latlong": [61.476415, 25.361036],
+    "membersOnly": "false",
+    "description": "Alueella on sauna, venelaituri ja peräkiinnityspoijuja, grillikatos, puukatos ja kompostori-käymälä.",
+    "services": [
+      "Sauna",
+      "Venelaituri",
+      "Grillikatos",
+      "Puukatos",
+      "Kuivakäymälä"
+    ],
+    "markdown": "lehtisten-saaret.md",
+    "images": [
+      {
+        "name": "Grillikatos",
+        "path": "lehtisten_saaret_grillikatos.jpeg"
+      },
+      {
+        "name": "Laituri",
+        "path": "lehtisten_saaret_laituri.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Livansaari",
+    "latlong": [61.990027, 25.698424],
+    "membersOnly": "false",
+    "description": "Livansaari sijaitsee noin puolentoista kilometrin verran Kärkistensalmen sillasta kaakkoon. Alueelle on rakennettu laituri peräkiinnityspoijuineen, grillikatos, puukatos ja kompostori-käymälä.",
+    "services": ["Venelaituri", "Grillikatos", "Puukatos", "Kuivakäymälä"],
+    "markdown": "livansaari.md",
+    "images": [
+      {
+        "name": "Grillikatos",
+        "path": "livansaari_grillikatos.jpeg"
+      },
+      {
+        "name": "Rantakallio",
+        "path": "livansaari_rantakallio.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Mämminiemi",
+    "latlong": [62.064546, 25.804637],
+    "membersOnly": "false",
+    "description": "Mämminiemi on suosittu virkistysalue Pohjois-Päijänteellä. Alueella on sauna, venelaituri peräkiinnityspoijuineen, grillikatos, puukatos ja kompostori-käymälä.",
+    "services": [
+      "2 Venelaituria",
+      "2 Grillikatosta",
+      "Puukatos",
+      "Kuivakäymälä",
+      "Nuotiopaikkoja",
+      "Uimaranta"
+    ],
+    "markdown": "mamminiemi.md",
+    "images": [
+      {
+        "name": "Mämminiemi",
+        "path": "mamminiemi_1.jpeg"
+      },
+      {
+        "name": "Nuotiopaikka",
+        "path": "mamminiemi_2.jpeg"
+      },
+      {
+        "name": "Pohjois-laituri",
+        "path": "mamminiemi_3.jpeg"
+      },
+      {
+        "name": "Pohjois-laiturin grillikatos",
+        "path": "mamminiemi_5.jpeg"
+      },
+      {
+        "name": "Opaste",
+        "path": "mamminiemi_6.jpeg"
+      },
+      {
+        "name": "Maisemia Mämminiemen huipulta",
+        "path": "mamminiemi_7.JPG"
+      }
+    ]
+  },
+  {
+    "name": "Ykskoivu",
+    "latlong": [61.322313192779134, 25.450461610991905],
+    "membersOnly": "true",
+    "description": "Purjehdusseurojen lippujen alla purjehtiville.",
+    "services": ["Venelaituri", "Grillikatos", "Puukatos", "WC", "Uimaranta"],
+    "markdown": "ykskoivu.md",
+    "images": [
+      {
+        "name": "Ykskoivun laituri",
+        "path": "ykskoivu_2.jpeg"
+      },
+      {
+        "name": "Ykskoivun laituri 2",
+        "path": "ykskoivu.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Kumina",
+    "latlong": [61.941096, 25.611826],
+    "membersOnly": "true",
+    "description": "JVS:n saaritukikohta Kumina sijaitsee Päijänteen Vanhanselän pohjoispäässä Kuminan saaren ja Niittusaaren välisen salmen etelärannalla.",
+    "services": [
+      "Sauna",
+      "Venelaituri",
+      "Grillikatos",
+      "Puukatos",
+      "Majoitusaitta",
+      "WC",
+      "Uimaranta"
+    ],
+    "markdown": "kumina.md",
+    "images": [
+      {
+        "name": "Kuminan laituri",
+        "path": "kumina_1.jpeg"
+      },
+      {
+        "name": "Sauna",
+        "path": "kumina_2.jpeg"
+      },
+      {
+        "name": "Laituri",
+        "path": "kumina_3.jpeg"
+      },
+      {
+        "name": "Rantaterassi",
+        "path": "kumina_4.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Taruniemi",
+    "latlong": [61.39243, 25.54029],
+    "membersOnly": "true",
+    "description": "Tehin pursiseuran luonnonkaunis tukikohta on Taruniemi, joka sijaitsee Paatsalon kaakkoispuolella olevassa Hietasaaressa (N 61 23′ 32.64″, I 25 32′ 22.98″). Saari on osittain Päijänteen kansallispuistoa.",
+    "services": [
+      "Sauna",
+      "Tuulilta suojaava grillikatos",
+      "Vanhempi Grillikatos",
+      "Kaasugrilli"
+    ],
+    "markdown": "taruniemi.md",
+    "images": [
+      {
+        "name": "Taruniemi ilmasta",
+        "path": "taruniemi.jpeg"
+      },
+      {
+        "name": "Laiturit",
+        "path": "taruniemi_2.jpeg"
+      },
+      {
+        "name": "Grillikota",
+        "path": "taruniemi_3.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Hulkkionlahti",
+    "latlong": [61.815182, 25.25916],
+    "membersOnly": "false",
+    "description": "Hulkkionlahden venesatama sijaitsee Kaipolassa Hulkkionlahden poukamassa Jämsänjoen suulla. Alueella on hyvät pysäköintimahdollisuudet ja ravintola.",
+    "services": [
+      "Septitankkien imutyhjennys",
+      "Kemiallisten käymälöiden tyh­jennyspiste",
+      "Vesipiste, sähkö, voimavirta",
+      "WC, jäte-/kierrätyspiste",
+      "Pysäköintialue traileri-veneilijöille",
+      "Veneiden laskuluiska"
+    ],
+    "markdown": "hulkkionlahti.md",
+    "images": [
+      {
+        "name": "Taruniemi ilmasta",
+        "path": "hulkkionlahti.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Hulkkionlahti",
+    "latlong": [61.815182, 25.25916],
+    "membersOnly": "false",
+    "description": "Hulkkionlahden venesatama sijaitsee Kaipolassa Hulkkionlahden poukamassa Jämsänjoen suulla. Alueella on hyvät pysäköintimahdollisuudet ja ravintola.",
+    "services": [
+      "Septitankkien imutyhjennys",
+      "Kemiallisten käymälöiden tyh­jennyspiste",
+      "Vesipiste, sähkö, voimavirta",
+      "WC, jäte-/kierrätyspiste",
+      "Pysäköintialue traileri-veneilijöille",
+      "Veneiden laskuluiska"
+    ],
+    "markdown": "hulkkionlahti.md",
+    "images": [
+      {
+        "name": "Taruniemi ilmasta",
+        "path": "hulkkionlahti.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Ilola Inn",
+    "latlong": [61.491736, 25.578113],
+    "membersOnly": "false",
+    "description": "Suopellon Ilola Innin majoituspalveluihin kuuluu useita 2HH-huoneitä, sviitit Linta ja Iivari sekä luksussviitit Anja ja Onni. Majoituspalveluiden yhteydestä löytyy myös ravintolapalvelut, sauna, hierontapalvelut sekä ulkoallas. Paikan päällä voit harrastaa myös erilaisia aktiviteetteja, kuten SUP-Lautailua tai Fatbikella ajoa.",
+    "services": [
+      "Septitankkien imutyhjennys",
+      "Kemiallisten käymälöiden tyh­jennyspiste",
+      "Vesipiste, sähkö, voimavirta",
+      "WC, jäte-/kierrätyspiste",
+      "Pysäköintialue traileri-veneilijöille",
+      "Veneiden laskuluiska"
+    ],
+    "markdown": "ilola-inn.md",
+    "images": [
+      {
+        "name": "Ilona Inn satamasta",
+        "path": "ilola_inn.jpeg"
+      },
+      {
+        "name": "Ilona Inn etupiha",
+        "path": "ilola_inn_2.jpeg"
+      },
+      {
+        "name": "Sauna",
+        "path": "ilola_inn_3.jpeg"
+      },
+      {
+        "name": "Terassi",
+        "path": "ilola_inn_4.jpeg"
+      },
+      {
+        "name": "Päärakennus",
+        "path": "ilola_inn_6.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Sahanranta, Kuhmoinen",
+    "latlong": [61.561887, 25.188087],
+    "membersOnly": "false",
+    "description": "Kuhmoisten satama on valittu jo kolmannen kerran vuoden parhaaksi vierasvenesatamaksi 2020! Päijänteen suurimman selkäveden ja parhaiden kala-apajien kainalosta, Kuhmoisten suojaisasta satamasta, löydät kaikki veneilijöiden tarvitsemat palvelut.",
+    "services": ["30 vierasvenepaikkaa", "Kahvila", "Ravintola"],
+    "markdown": "kuhmoinen-sahanranta.md",
+    "images": [
+      {
+        "name": "Sahanranta ilmasta",
+        "path": "kuhmoinen_sahanranta.jpeg"
+      },
+      {
+        "name": "Sahanranta ilmasta 2",
+        "path": "kuhmoinen_sahanranta_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Askonniemi",
+    "latlong": [61.691104, 25.399993],
+    "membersOnly": "false",
+    "description": "Askonniemessä on laituri veneilijöille, nuotiopaikka ja puuvaja.",
+    "services": ["Puuvaja", "Nuotiopaikka", "Laituri"],
+    "markdown": "askonniemi.md",
+    "images": [
+      {
+        "name": "Sahanranta ilmasta",
+        "path": "askonniemi_1.jpeg"
       }
     ]
   }

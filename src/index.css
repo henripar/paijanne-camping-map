@@ -42,8 +42,7 @@ body {
   background: var(--color-bg) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .mapTiles {
-    filter: var(--map-tiles-filter, none);
-  }
+.mapTiles {
+  filter: var(--map-tiles-filter, none);
+  -webkit-filter: var(--map-tiles-filter, none);
 }

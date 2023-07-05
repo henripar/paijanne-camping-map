@@ -1,11 +1,19 @@
 import React from 'react';
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
 import data from '../data/camping-spots.json';
+import markerRed from '../assets/marker_red.svg';
 import { LocationDetails } from './LocationDetails';
+import L from 'leaflet';
 
 export default function Map() {
   const [location, setLocation] = React.useState(null);
   const [showDetails, setShowDetails] = React.useState(false);
+
+  const markerForMembers = L.icon({
+    iconUrl: markerRed,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+  });
 
   const markerClicked = (location) => {
     setLocation(location);
@@ -37,15 +45,28 @@ export default function Map() {
               onClick={() => console.log('marker clicked')}
               key={campingSpot.name}
             >
-              <Marker
-                key={index}
-                position={campingSpot.latlong}
-                eventHandlers={{
-                  click: () => {
-                    markerClicked(campingSpot);
-                  },
-                }}
-              ></Marker>
+              {campingSpot.membersOnly == 'true' ? (
+                <Marker
+                  key={index}
+                  icon={markerForMembers}
+                  position={campingSpot.latlong}
+                  eventHandlers={{
+                    click: () => {
+                      markerClicked(campingSpot);
+                    },
+                  }}
+                ></Marker>
+              ) : (
+                <Marker
+                  key={index}
+                  position={campingSpot.latlong}
+                  eventHandlers={{
+                    click: () => {
+                      markerClicked(campingSpot);
+                    },
+                  }}
+                ></Marker>
+              )}
             </div>
           );
         })}

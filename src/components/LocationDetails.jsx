@@ -2,12 +2,52 @@ import React from 'react';
 import styles from '../styles/LocationDetails.module.css';
 import { useEffect, useState } from 'react';
 import { marked } from 'marked';
+import { Label } from './Label';
+// import anchor from '../assets/anchor.svg';
+// import mapPin from '../assets/map-pin.svg';
 import DOMPurify from 'dompurify';
 
 marked.setOptions({
   breaks: true,
   sanitize: true,
 });
+
+const anchor = (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='24'
+    height='24'
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    stroke-width='2'
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    class='lucide lucide-anchor'
+  >
+    <circle cx='12' cy='5' r='3' />
+    <line x1='12' x2='12' y1='22' y2='8' />
+    <path d='M5 12H2a10 10 0 0 0 20 0h-3' />
+  </svg>
+);
+
+const mapPin = (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='24'
+    height='24'
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    stroke-width='2'
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    class='lucide lucide-map-pin'
+  >
+    <path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z' />
+    <circle cx='12' cy='10' r='3' />
+  </svg>
+);
 
 export const LocationDetails = ({ location, closeHandler }) => {
   const [markup, setMarkup] = React.useState('');
@@ -55,24 +95,21 @@ export const LocationDetails = ({ location, closeHandler }) => {
         </svg>
       </span>
       <span className={styles.coordinates}>
-        {' '}
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          width='24'
-          height='24'
-          viewBox='0 0 24 24'
-          fill='none'
-          stroke='currentColor'
-          stroke-width='2'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-          class='lucide lucide-map-pin'
-        >
-          <path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z' />
-          <circle cx='12' cy='10' r='3' />
-        </svg>
-        {location.latlong[0]} , {location.latlong[1]}
+        <Label
+          icon={mapPin}
+          color='#ffffff00'
+          stroke='var(--color-text)'
+          text={`${location.latlong[0]} , ${location.latlong[1]}`}
+        ></Label>
+        {location.membersOnly == 'true' && (
+          <Label
+            text='Vain pursiseurojen jäsenille'
+            color='#f4caca3a'
+            icon={anchor}
+          ></Label>
+        )}
       </span>
+
       <div class='container'>
         <div id='preview'></div>
       </div>
