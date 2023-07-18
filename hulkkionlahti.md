@@ -2,7 +2,7 @@
 
 Hulkkionlahden venesatama sijaitsee Kaipolassa Hulkkionlahden poukamassa Jämsänjoen suulla. Alueella on hyvät pysäköintimahdollisuudet ja ravintola.
 
-**Satamassa toiminut ravintola Myrsky on suljettu ja lopettanut toimintansa. Uutta yrittäjää ei toiminnan jatkamiseen ole löytynyt (tilanne kesä 2023).**
+Satamasta löytyy ravintola Vanha Hanski. Ravintolan listalta löytyy burgerit, pizzat, lehtipihvit, makkarakorit yms. Kesäisin ravintolassa on myös terassi.
 
 Satama-alueen palvelut:
 
@@ -14,7 +14,7 @@ Satama-alueen palvelut:
 - pysäköintialue traileri-veneilijöille
 - veneiden talvisäilytys
 - veneiden laskuluiska
-- Kaipolan keskustaan n. 1 km
+- Kaipolan keskustaan n. 1 km (mm. K-market)
 
 **Laituri- ja poijupaikat, leveys m**
 
