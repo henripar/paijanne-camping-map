@@ -46,3 +46,21 @@ body {
   filter: var(--map-tiles-filter, none);
   -webkit-filter: var(--map-tiles-filter, none);
 }
+
+.leaflet-tooltip {
+  background: var(--color-bg) !important;
+  border: 1px solid var(--color-border) !important;
+  color: var(--color-text) !important;
+}
+
+.leaflet-tooltip-right:before {
+  border-right-color: var(--color-bg) !important;
+}
+
+.leaflet-tooltip-left:before {
+  border-left-color: var(--color-bg) !important;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: var(--color-bg) !important;
+}

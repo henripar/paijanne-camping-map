@@ -262,7 +262,7 @@
     "markdown": "koukunlahti.md",
     "images": [
       {
-        "name": "Korpilahden satama",
+        "name": "Koukunlahti",
         "path": "koukunlahti.jpeg"
       }
     ]
@@ -276,20 +276,36 @@
     "markdown": "pyydysniemi.md",
     "images": [
       {
+        "name": "Pyydysniemen venelaituri",
+        "path": "pyydysniemi_laituri.jpeg"
+      },
+      {
         "name": "Pyydysniemen nuotiopaikka",
-        "path": "pyydysniemi_nuotiopaikka.jpeg"
+        "path": "pyydysniemi_nuotiopaikka_2.jpeg"
       },
       {
-        "name": "Pyydysniemen nuotiopaikka 2",
-        "path": "pyydysniemi_2.jpeg"
+        "name": "Pyydysniemen nuotiopaikka ja venelaituri",
+        "path": "pyydysniemi_nuotiopaikka_3.jpeg"
       },
       {
-        "name": "Päijätsalon näköala torni",
-        "path": "pyydysniemi_paijatsalo_naktorni.jpeg"
+        "name": "Päijätsalon näköalatorni",
+        "path": "pyydysniemi_nakotorni.jpeg"
       },
       {
-        "name": "Maisemia Päijätsalon näköala tornista",
-        "path": "pyydysniemi_paijatsalo_nakotorni_2.jpeg"
+        "name": "Maisemaa näköalatornista",
+        "path": "pyydysniemi_nakotorni_2.jpeg"
+      },
+      {
+        "name": "Maisemaa näköalatornista",
+        "path": "pyydysniemi_nakotorni_3.jpeg"
+      },
+      {
+        "name": "Maisemaa näköalatornista",
+        "path": "pyydysniemi_puukatos.jpeg"
+      },
+      {
+        "name": "Opastetaulut",
+        "path": "pyydysniemi_opasteet.jpeg"
       }
     ]
   },
@@ -328,13 +344,65 @@
       "Laituri",
       "Grillikatos",
       "Nuotiopaikka",
-      "Puukatos"
+      "2 Puukatosta"
     ],
     "markdown": "vuorissalo.md",
     "images": [
       {
         "name": "Vuorissalon virkistysalue",
         "path": "vuorissalo_1.jpeg"
+      },
+      {
+        "name": "Venelaituri",
+        "path": "vuorissalo_laituri.jpeg"
+      },
+      {
+        "name": "Venelaituri 2",
+        "path": "vuorissalo_venelaituri.jpeg"
+      },
+      {
+        "name": "Rannan nuotiopaikka",
+        "path": "vuorissalo_nuotiopaikka.jpeg"
+      },
+      {
+        "name": "Puukatos venelaiturin vieressä",
+        "path": "vuorissalo_puukatos_ranta.jpeg"
+      },
+      {
+        "name": "Saunan puukatos",
+        "path": "vuorissalo_puuvaja_sauna.jpeg"
+      },
+      {
+        "name": "Sauna",
+        "path": "vuorissalo_sauna.jpeg"
+      },
+      {
+        "name": "Saunarakennus",
+        "path": "vuorissalo_sauna_2.jpeg"
+      },
+      {
+        "name": "Grillikatos",
+        "path": "vuorissalo_grillikatos_1.jpeg"
+      },
+      {
+        "name": "Grillikatos 2",
+        "path": "vuorissalo_grillikatos_2.jpeg"
+      },
+      {
+        "name": "Grillikatos 3",
+        "path": "vuorissalo_grillikatos_3.jpeg"
+      },
+      {
+        "name": "Wc",
+        "path": "vuorissalo_wc.jpeg"
+      },
+      {
+        "name": "Opaste",
+        "path": "vuorissalo_opaste.jpeg"
+      },
+      {
+        "name": "Järjestysssäännöt",
+        "path": "vuorissalo_jarjestys.jpeg"
       },
       {
         "name": "Lähestymiskartta",
@@ -353,6 +421,15 @@
       {
         "name": "Kiviönniemi",
         "path": "kivionniemi_1.jpeg"
+      },
+
+      {
+        "name": "Kiviönniemi",
+        "path": "kivionniemi_3.jpeg"
+      },
+      {
+        "name": "Kiviönniemi",
+        "path": "kivionniemi_4.jpeg"
       },
       {
         "name": "Lähestymiskartta",
@@ -575,34 +652,14 @@
       "Vesipiste, sähkö, voimavirta",
       "WC, jäte-/kierrätyspiste",
       "Pysäköintialue traileri-veneilijöille",
-      "Veneiden laskuluiska"
+      "Veneiden laskuluiska",
+      "Ravintola"
     ],
     "markdown": "hulkkionlahti.md",
     "images": [
       {
-        "name": "Taruniemi ilmasta",
-        "path": "hulkkionlahti.jpeg"
-      }
-    ]
-  },
-  {
-    "name": "Hulkkionlahti",
-    "latlong": [61.815182, 25.25916],
-    "membersOnly": "false",
-    "description": "Hulkkionlahden venesatama sijaitsee Kaipolassa Hulkkionlahden poukamassa Jämsänjoen suulla. Alueella on hyvät pysäköintimahdollisuudet ja ravintola.",
-    "services": [
-      "Septitankkien imutyhjennys",
-      "Kemiallisten käymälöiden tyh­jennyspiste",
-      "Vesipiste, sähkö, voimavirta",
-      "WC, jäte-/kierrätyspiste",
-      "Pysäköintialue traileri-veneilijöille",
-      "Veneiden laskuluiska"
-    ],
-    "markdown": "hulkkionlahti.md",
-    "images": [
-      {
-        "name": "Taruniemi ilmasta",
-        "path": "hulkkionlahti.jpeg"
+        "name": "Hulkkionlahden ravintola",
+        "path": "hulkkionlahti_hanski.jpeg"
       }
     ]
   },
@@ -630,7 +687,7 @@
         "path": "ilola_inn_2.jpeg"
       },
       {
-        "name": "Sauna",
+        "name": "Maisema sauna",
         "path": "ilola_inn_3.jpeg"
       },
       {
@@ -640,6 +697,26 @@
       {
         "name": "Päärakennus",
         "path": "ilola_inn_6.jpeg"
+      },
+      {
+        "name": "Laiturit",
+        "path": "ilola_1.jpeg"
+      },
+      {
+        "name": "Terassi",
+        "path": "ilola_2.jpeg"
+      },
+      {
+        "name": "Terassi",
+        "path": "ilola_3.jpeg"
+      },
+      {
+        "name": "Aamupala buffet",
+        "path": "ilola_4.jpeg"
+      },
+      {
+        "name": "Uima-allas",
+        "path": "ilola_6.jpeg"
       }
     ]
   },
@@ -672,6 +749,138 @@
       {
         "name": "Sahanranta ilmasta",
         "path": "askonniemi_1.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Luhanka",
+    "latlong": [61.794959, 25.702968],
+    "membersOnly": "false",
+    "description": "Luhanka on valittu vuoden vierasvenesatamaksi 2023.",
+    "services": ["Kauppa", "Ravintola", "Nuotiopaikka", "Laituri", "Tankkaus"],
+    "markdown": "luhanka.md",
+    "images": [
+      {
+        "name": "Luhangan satama",
+        "path": "luhanka_1.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Pieni Kaitasaari",
+    "latlong": [61.97444703020211, 25.61317219017888],
+    "membersOnly": "true",
+    "description": "Pieni Kaitasaari",
+    "services": ["Laituri"],
+    "markdown": "pieni-kaitasaari.md",
+    "images": [
+      {
+        "name": "Pieni kaitasaari",
+        "path": "pieni_kaitasaari.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "pieni_kaitasaari_2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Pieni Kalliosaari",
+    "latlong": [62.00201060131877, 25.736996588033588],
+    "membersOnly": "true",
+    "description": "Korpilahden veneseuran (KVS) tukikohta sijaitsee Pienessä Kalliosaaressa Kärkisten itä puolella.",
+    "services": ["Sauna", "Grillikatos", "Puucee"],
+    "markdown": "pieni-kalliosaari.md",
+    "images": [
+      {
+        "name": "Pieni Kalliosaari",
+        "path": "pieni-kalliosaari.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Luotsivene",
+    "latlong": [62.139789, 25.75294],
+    "membersOnly": "false",
+    "description": "Luotsivene ravintola.",
+    "services": ["Ravintola", "Laituri", "Bensa-asema"],
+    "markdown": "luotsivene.md",
+    "images": [
+      {
+        "name": "Luotsivene",
+        "path": "luotsivene_1.jpeg"
+      },
+      {
+        "name": "Luotsivene lähestymiskartta",
+        "path": "luotsivene_lahestymiskartta.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Vaheri",
+    "latlong": [61.82369212, 25.46534558],
+    "membersOnly": "false",
+    "description": "Vaherin satama",
+    "services": ["Laituri", "Nuotiopaikka", "Puucee", "Septityhjennys"],
+    "markdown": "vaheri.md",
+    "images": [
+      {
+        "name": "Vaherin sataman laivalaituri",
+        "path": "vaheri_2.jpeg"
+      },
+      {
+        "name": "Vaherin sataman venelaiturit",
+        "path": "vaheri_3.jpeg"
+      },
+      {
+        "name": "Opaste",
+        "path": "vaheri_1.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "vaheri_lahestymiskartta.png"
+      }
+    ]
+  },
+  {
+    "name": "Pihjajakoski",
+    "latlong": [61.682161449, 25.357329139],
+    "membersOnly": "false",
+    "description": "Pihlajakoski",
+    "services": [
+      "Laituri",
+      "Sauna",
+      "Kahvila",
+      "Ravintola",
+      "Polttoainemyynti"
+    ],
+    "markdown": "pihlajakoski.md",
+    "images": [
+      {
+        "name": "Pihlajakosken satama",
+        "path": "pihjalakoski.jpeg"
+      },
+      {
+        "name": "Makasiinikahvila",
+        "path": "pihlajakoski_2.jpeg"
+      },
+      {
+        "name": "Lähestymiskartta",
+        "path": "pihlajakoski_lahestymiskartta.gif"
+      }
+    ]
+  },
+  {
+    "name": "Sammallahti",
+    "latlong": [61.894763, 25.372711],
+    "membersOnly": "false",
+    "description": "Sammallahti",
+    "services": ["Laituri"],
+    "markdown": "sammallahti.md",
+    "images": [
+      {
+        "name": "Sammallahti",
+        "path": "sammallahti.png"
       }
     ]
   }

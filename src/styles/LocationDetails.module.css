@@ -146,3 +146,14 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 605px) {
+  .coordinates {
+    flex-direction: column;
+  }
+
+  .coordinates > div:not(:first-child) {
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+  }
+}

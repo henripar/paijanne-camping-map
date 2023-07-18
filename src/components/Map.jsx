@@ -1,5 +1,12 @@
 import React from 'react';
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  useMap,
+  Marker,
+  Popup,
+  Tooltip,
+} from 'react-leaflet';
 import data from '../data/camping-spots.json';
 import markerRed from '../assets/marker_red.svg';
 import { LocationDetails } from './LocationDetails';
@@ -55,17 +62,23 @@ export default function Map() {
                       markerClicked(campingSpot);
                     },
                   }}
-                ></Marker>
+                >
+                  {' '}
+                  <Tooltip>{campingSpot.name}</Tooltip>
+                </Marker>
               ) : (
                 <Marker
                   key={index}
                   position={campingSpot.latlong}
+                  tooltipPermanent={true}
                   eventHandlers={{
                     click: () => {
                       markerClicked(campingSpot);
                     },
                   }}
-                ></Marker>
+                >
+                  <Tooltip>{campingSpot.name}</Tooltip>
+                </Marker>
               )}
             </div>
           );
